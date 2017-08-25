@@ -34,7 +34,7 @@ import numpy as np
 from numpy.testing import assert_equal, assert_almost_equal, assert_array_less
 
 from qinfer.abstract_model import FiniteOutcomeModel
-from qinfer.tests.base_test import DerandomizedTestCase, MockModel
+from tests.base_test import DerandomizedTestCase, MockModel
 from qinfer.distributions import MultivariateNormalDistribution, ParticleDistribution
 from qinfer.smc import SMCUpdater
 

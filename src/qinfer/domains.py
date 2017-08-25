@@ -28,13 +28,11 @@
 from __future__ import division
 from __future__ import absolute_import
 
-from builtins import range
 from future.utils import with_metaclass
 from functools import reduce
 
 from operator import mul
 from scipy.special import binom
-from math import factorial
 from itertools import combinations_with_replacement, product
 import numpy as np
 from .utils import join_struct_arrays, separate_struct_array

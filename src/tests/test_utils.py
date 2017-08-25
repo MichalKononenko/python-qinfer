@@ -30,14 +30,10 @@ from __future__ import division # Ensures that a/b is always a float.
 
 ## IMPORTS ####################################################################
 
-import warnings
-import unittest
-
-from scipy.linalg import sqrtm
 import numpy as np
 from numpy.testing import assert_equal, assert_almost_equal
 
-from qinfer.tests.base_test import DerandomizedTestCase, MockModel, assert_warns
+from tests.base_test import DerandomizedTestCase
 
 from qinfer.utils import in_ellipsoid, assert_sigfigs_equal, sqrtm_psd, to_simplex, from_simplex
 

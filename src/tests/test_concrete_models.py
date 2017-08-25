@@ -35,7 +35,7 @@ import numpy as np
 from numpy.testing import assert_equal, assert_almost_equal
 import numpy.lib.recfunctions as rfn
 
-from qinfer.tests.base_test import (
+from tests.base_test import (
     DerandomizedTestCase, 
     ConcreteDifferentiableModelTest,
     ConcreteModelTest,

@@ -74,7 +74,7 @@ install:
     fi
 
 script:
-  - py.test --cov-config .coveragerc --cov=qinfer src/qinfer/
+  - py.test --cov-config .coveragerc --cov=qinfer --numprocesses=auto src/qinfer/
   - pylint --py3k src/qinfer/
   - if [[ "${DOCTEST}" == "1" ]]; then
       cd $TRAVIS_BUILD_DIR/doc;

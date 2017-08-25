@@ -33,7 +33,7 @@ from __future__ import division # Ensures that a/b is always a float.
 import numpy as np
 from numpy.testing import assert_equal, assert_almost_equal
 
-from qinfer.tests.base_test import DerandomizedTestCase, MockModel
+from tests.base_test import DerandomizedTestCase, MockModel
 from qinfer.abstract_model import FiniteOutcomeModel
     
 ## CLASSES ####################################################################

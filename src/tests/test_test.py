@@ -38,7 +38,7 @@ import numpy as np
 from numpy.testing import assert_equal, assert_almost_equal
 
 from qinfer import UniformDistribution
-from qinfer.tests.base_test import (
+from tests.base_test import (
     DerandomizedTestCase, MockModel, assert_warns, test_model
 )
 

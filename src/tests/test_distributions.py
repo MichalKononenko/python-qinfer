@@ -34,7 +34,7 @@ import numpy as np
 import scipy.stats
 from numpy.testing import assert_equal, assert_almost_equal, assert_array_less
 
-from qinfer.tests.base_test import DerandomizedTestCase
+from tests.base_test import DerandomizedTestCase
 from qinfer.utils import assert_sigfigs_equal
 from qinfer.distributions import *
 
